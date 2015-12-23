@@ -10,6 +10,6 @@ EXPOSE 80
 
 RUN apt-get -y install nmap
 
-ENTRYPOINT ["nmap"]
+ENTRYPOINT ["sudo nmap"]
 
 
